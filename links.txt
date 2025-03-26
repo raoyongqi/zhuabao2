@@ -1,0 +1,18 @@
+https://webofscience.clarivate.cn/api/gateway?GWVersion=2&amp;SrcAuth=IC2JCR&amp;SrcApp=WOS&amp;KeyISSN=2090-7141&amp;DestApp=IC2JCR&amp;UsrSteamSID=&amp;SrcAppSID=USW2EC0F25hdYrb7nqJaVk3qPohg9&amp;SrcJTitle=JOURNAL OF COMPUTER NETWORKS AND COMMUNICATIONS
+https://webofscience.clarivate.cn/api/gateway?GWVersion=2&amp;SrcAuth=IC2JCR&amp;SrcApp=WOS&amp;KeyISSN=2090-7141&amp;DestApp=IC2JCR&amp;UsrSteamSID=&amp;SrcAppSID=USW2EC0F25hdYrb7nqJaVk3qPohg9&amp;SrcJTitle=JOURNAL OF COMPUTER NETWORKS AND COMMUNICATIONS
+https://webofscience.clarivate.cn/api/gateway?GWVersion=2&amp;SrcAuth=OpenURL&amp;SrcApp=UA&amp;DestURL=http%3A%2F%2FMK4ZC2TA5G.search.serialssolutions.com%3Furl_ver%3DZ39.88-2004%26url_ctx_fmt%3Dinfo%3Aofi%2Ffmt%3Akev%3Amtx%3Actx%26rft.artnum%3DARTN%2B1636203%26rft.atitle%3DImproved%2BConvolutional%2BNeural%2BImage%2BRecognition%2BAlgorithm%2Bbased%2Bon%2BLeNet-5%26rft.aufirst%3DLijie%26rft.auinit%3DLJ%26rft.aulast%3DZhou%26rft.date%3D2022%26rft_id%3Dinfo%3Adoi%2F10.1155%252F2022%252F1636203%26rft.eissn%3D2090-715X%26rft.genre%3Darticle%26rft.issn%3D2090-715X%26rft.jtitle%3DJOURNAL%2BOF%2BCOMPUTER%2BNETWORKS%2BAND%2BCOMMUNICATIONS%26rft_val_fmt%3Dinfo%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal%26rfr_id%3Dinfo%3Asid%2Fwebofscience.com%3AWOS%3AALLDB%26rft.stitle%3DJ%2BCOMPUT%2BNETW%2BCOMMUN%26rft.volume%3D2022%26rft.au%3DZhou%252C%2BLJ%26rft.au%3DYu%252C%2BWH&amp;DestApp=OTHER_OpenURL&amp;SrcAppSID=USW2EC0F25hdYrb7nqJaVk3qPohg9&amp;SrcJTitle=JOURNAL+OF+COMPUTER+NETWORKS+AND+COMMUNICATIONS&amp;SrcPubType=MD_FORMAT&amp;HMAC=HYcEJqJhwmygEZh2tgigqZIbv8wFnGnz8fV6IeWx8t0%3D
+https://webofscience.clarivate.cn/api/gateway?GWVersion=2&amp;SrcAuth=DOISource&amp;SrcApp=UA&amp;KeyAID=10.1155%2F2022%2F1636203&amp;DestApp=DOI&amp;SrcAppSID=USW2EC0F25hdYrb7nqJaVk3qPohg9&amp;SrcJTitle=JOURNAL+OF+COMPUTER+NETWORKS+AND+COMMUNICATIONS&amp;DestDOIRegistrantName=Hindawi+Limited
+https://webofscience.clarivate.cn/api/gateway?GWVersion=2&amp;SrcAuth=PQPLP&amp;SrcApp=UA&amp;DestURL=https%3A%2F%2Fwww.proquest.com%2Fdocview%2F2725121829%2Fembedded%2FRCJXZXGBIPSUVSO3%3Fpq-origsite%3Dwos&amp;DestApp=PQP_ExternalLink&amp;SrcItemId=WOS:000876222000001&amp;SrcAppSID=USW2EC0F25hdYrb7nqJaVk3qPohg9&amp;HMAC=1zGEoE22VlJr9iYI1Z3bF3tt0yfL6VusSVhcVKVKodg%3D
+http://clarivate.com/
+https://clarivate.com/webofsciencegroup/support/wos/
+https://support.clarivate.com/ScientificandAcademicResearch/s/?language=en_US
+https://clarivate.com/legal/privacy-statement/
+https://discover.clarivate.com/preferencecenter_en
+https://clarivate.com/legal/copyright/
+https://clarivate.com/legal/cookie-policy/
+http://wokinfo.com/terms
+https://beian.miit.gov.cn/
+https://www.twitter.com/ClarivateAG
+https://www.facebook.com/clarivateag
+https://cookiepedia.co.uk/giving-consent-to-cookies
+https://www.onetrust.com/products/cookie-consent/
