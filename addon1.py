@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 import os
+import sys
 
 # ✅ 设置 Chrome 配置
 chrome_options = uc.ChromeOptions()
@@ -61,6 +62,7 @@ save_path = f"C:\\Users\\r\\Desktop\\zhuabao2\\webofsci\\{keys_no_spaces}_{page}
 
 single_file_path = r"C:\Users\r\Desktop\zhuabao2\single-file.exe"  # 指定 full path to single-file.exe
 
+current_urls=[]
 current_url = driver.execute_script("return window.location.href;")
 
 folder_path = 'webofsci'
@@ -71,21 +73,45 @@ if not os.path.exists(folder_path):
 else:
     print(f"文件夹 '{folder_path}' 已存在。")
 
+
+
 print(f'{single_file_path} {current_url} {save_path}')
 
-#  务必配置chrome路径在C:\\Program Files\\Chromium\\Application\\chrome.exe
 
-# 搞一下数据文件
-
-
-# C:\Users\r\AppData\Local\Chromium\User Data
-# 关闭浏览器
+current_urls.append(current_url)
 
 
 driver.quit()
-# 如果不关闭浏览器，注定报错
 
 
-os.system(f'{single_file_path} --browser-arg --user-data-dir="C:\\Users\\r\\AppData\\Local\\Chromium\\User Data\\Default" {current_url} {save_path}')
+# Loop through the first 100 pages
+# Loop through the first 100 pages
+
+total_links = 101
+
+for page_number in range(1, total_links):
+    # Modify the URL for the current page
+    base_url = current_url.rstrip('0123456789')  # Remove digits from the end of the URL
+    new_url = f"{base_url}{page_number}"
+
+    # Generate the save path using keys_no_spaces and page number
+    save_path = f"C:\\Users\\r\\Desktop\\zhuabao2\\webofsci\\{keys_no_spaces}_{page_number}.html"
 
 
+    if os.path.exists(save_path):
+        print(f"File for page {page_number} already exists. Skipping...")
+        continue 
+
+    print(f"Navigating to: {new_url} and saving to: {save_path}")
+
+    exit_code =os.system(f'{single_file_path} --browser-arg --user-data-dir="C:\\Users\\r\\AppData\\Local\\Chromium\\User Data\\Default" {new_url} {save_path}')
+
+    if exit_code != 0:
+        print(f"Error: The command failed with exit code {exit_code}. Stopping the script.")
+        sys.exit(1)
+    else:
+        print(f"Successfully processed: {current_url}")
+
+    remaining = total_links - (page_number + 1)
+
+    print(f"已完成 {page_number + 1}/{total_links}，还剩 {remaining} 个链接未处理。")

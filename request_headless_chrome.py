@@ -25,7 +25,6 @@ def sanitize_url(url):
     # 去掉 URL 中的协议部分（http:// 或 https://）
     url = re.sub(r'^https?://', '', url)
     
-    # 将下划线 _ 替换为空字符串
     url = url.replace('_', '')
     
     # 替换 URL 中的特殊字符为合法的文件名字符
@@ -47,7 +46,7 @@ def sanitize_url(url):
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # 目标网页URL
-href="https://www.sciencedirect.com/science/article/pii/S089360802300566X?via%3Dihub"
+href="https://job.10086.cn/login.html"
 max_retries = 3
 retries = 0
 

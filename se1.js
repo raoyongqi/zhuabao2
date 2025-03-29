@@ -29,12 +29,11 @@ for (let link of filteredLinks) {
     const href = findHref(link);
 
     if (href) {
-        foundCount++;  // Increment the found count
+        foundCount++;
 
-        // 如果找到第二个符合条件的链接，则跳出循环并在新窗口打开链接
         if (foundCount === 2) {
-            console.log(href.shadowRoot); // 打印找到的 href 属性
-            break; // Stop the loop after opening the second link
+            console.log(href.shadowRoot);
+            break;
         }
     } else {
         console.log("第二个子元素或其子元素没有 href 属性");
